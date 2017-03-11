@@ -8,11 +8,11 @@ public class CommonVariables {
 	
 
 	
-	public static String raagaAppPath = "C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk";
+	public static String raagaAppPath = "C:\\Users\\leonid\\.jenkins\\workspace\\mobileAndroidSanityProfileFromGit\\apks\\raaga.apk";
 
 	//public String pathOfAppiumLogs = "C:/Users/leonid/Desktop/appiumlogfile/";
 	//public String appiumLogsFilePerfix = ".txt";
-	public static String pathOfDirectoryThatContainsReports = "C:\\Users\\leonid\\workspace\\MobileAndroid\\reports";
+	public static String pathOfDirectoryThatContainsReports = "C:\\Users\\leonid\\.jenkins\\workspace\\mobileAndroidSanityProfileFromGit\\reports\\";
 	public static int maxTimeOut = 500;
 	public static int minTimeOut = 1;
 	public static String pathOfTheAppiumNode= "C:\\Program Files\\nodejs\\node.exe";
@@ -27,8 +27,8 @@ public class CommonVariables {
 	
 	
 	
-	public static String pathOfTheAppiumLogs= "C:\\Users\\leonid\\workspace\\MobileAndroid\\appiumLogs\\";
-	public static String pathForScreenShots = "C:\\Users\\leonid\\workspace\\MobileAndroid\\screenShots\\";
+	public static String pathOfTheAppiumLogs= "C:\\Users\\leonid\\.jenkins\\workspace\\mobileAndroidSanityProfileFromGit\\appiumLogs\\";
+	public static String pathForScreenShots = "C:\\Users\\leonid\\.jenkins\\workspace\\mobileAndroidSanityProfileFromGit\\screenShots\\";
 	
 
 
