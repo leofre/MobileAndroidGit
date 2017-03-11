@@ -1,0 +1,145 @@
+2017-03-11 21:07:47:917 - info: [Appium] Welcome to Appium v1.6.1
+2017-03-11 21:07:47:920 - info: [Appium] Non-default server args:
+2017-03-11 21:07:47:923 - info: [Appium]   log: 'C:\\Users\\leonid\\workspace\\MobileAndroid\\appiumLogs\\Test Trending Category.txt'
+2017-03-11 21:07:48:094 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2017-03-11 21:07:48:714 - info: [HTTP] --> GET /wd/hub/status {}
+2017-03-11 21:07:48:718 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2017-03-11 21:07:48:762 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.6.1","revision":null}}
+2017-03-11 21:07:48:772 - info: [HTTP] <-- GET /wd/hub/status 200 53 ms - 83 
+2017-03-11 21:07:50:181 - info: [HTTP] --> POST /wd/hub/session {"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},"requiredCapabilities":{}},"desiredCapabilities":{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},"requiredCapabilities":{}}
+2017-03-11 21:07:50:198 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},{},{"desiredCapabilities":{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},"requiredCapabilities":{}},null,null]
+2017-03-11 21:07:50:205 - info: [Appium] Creating new AndroidDriver session
+2017-03-11 21:07:50:205 - info: [Appium] Capabilities:
+2017-03-11 21:07:50:207 - info: [Appium]   app: 'C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk'
+2017-03-11 21:07:50:208 - info: [Appium]   platformName: 'Android'
+2017-03-11 21:07:50:208 - info: [Appium]   deviceName: 'Android device'
+2017-03-11 21:07:50:209 - info: [Appium]   newCommandTimeout: '700'
+2017-03-11 21:07:50:212 - info: [debug] [AndroidDriver] AndroidDriver version: 1.10.35
+2017-03-11 21:07:50:216 - warn: [BaseDriver] Capability 'newCommandTimeout' changed from string ('700') to integer (700). This may cause unexpected behavior
+2017-03-11 21:07:50:222 - info: [BaseDriver] Session created with session id: 0370f1ab-a3dd-4127-a6d9-46083be68348
+2017-03-11 21:07:50:225 - info: [debug] [AndroidDriver] Getting Java version
+2017-03-11 21:07:50:343 - info: [AndroidDriver] Java version is: 1.8.0_121
+2017-03-11 21:07:50:346 - info: [ADB] Checking whether adb is present
+2017-03-11 21:07:50:352 - info: [ADB] Using adb.exe from C:\Users\leonid\AppData\Local\Android\sdk\platform-tools\adb.exe
+2017-03-11 21:07:50:353 - info: [AndroidDriver] Retrieving device list
+2017-03-11 21:07:50:354 - info: [debug] [ADB] Trying to find a connected android device
+2017-03-11 21:07:50:356 - info: [debug] [ADB] Getting connected devices...
+2017-03-11 21:07:55:344 - info: [debug] [ADB] 0 device(s) connected
+2017-03-11 21:07:55:345 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:07:55:347 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:07:55:594 - info: [debug] [ADB] Getting connected devices...
+2017-03-11 21:07:59:695 - info: [debug] [ADB] 0 device(s) connected
+2017-03-11 21:07:59:696 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:07:59:697 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:07:59:937 - info: [debug] [ADB] Getting connected devices...
+2017-03-11 21:08:04:004 - info: [debug] [ADB] 0 device(s) connected
+2017-03-11 21:08:04:006 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:04:008 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:04:241 - info: [debug] [ADB] Getting connected devices...
+2017-03-11 21:08:08:362 - info: [debug] [ADB] 0 device(s) connected
+2017-03-11 21:08:08:364 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:08:365 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:08:615 - info: [debug] [ADB] Getting connected devices...
+2017-03-11 21:08:12:766 - info: [debug] [ADB] 0 device(s) connected
+2017-03-11 21:08:12:767 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:12:767 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:12:989 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:12:990 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:14:219 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:14:220 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:15:478 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:15:479 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:16:729 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:16:730 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:18:019 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:18:021 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:19:273 - info: [debug] [AndroidDriver] Shutting down Android driver
+2017-03-11 21:08:19:276 - info: [debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2017-03-11 21:08:19:325 - error: [MJSONWP] Encountered internal error running command: Error: Could not find a connected Android device.
+    at ADB.getDevices$ (lib/tools/system-calls.js:127:13)
+    at tryCatch (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at invoke (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at enqueueResult (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+    at Promise.F (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+    at AsyncIterator.enqueue (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at Object.runtime.async (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+    at getDevices (lib/tools/system-calls.js:130:18)
+    at ADB.getDevices$ (lib/tools/system-calls.js:144:20)
+    at tryCatch (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2017-03-11 21:08:19:334 - info: [HTTP] <-- POST /wd/hub/session 500 29147 ms - 179 
+2017-03-11 21:08:19:367 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},"requiredCapabilities":{}}
+2017-03-11 21:08:19:368 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},{},null,null,null,null,null]
+2017-03-11 21:08:19:369 - info: [Appium] Creating new AndroidDriver session
+2017-03-11 21:08:19:369 - info: [Appium] Capabilities:
+2017-03-11 21:08:19:370 - info: [Appium]   app: 'C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk'
+2017-03-11 21:08:19:372 - info: [Appium]   platformName: 'Android'
+2017-03-11 21:08:19:373 - info: [Appium]   deviceName: 'Android device'
+2017-03-11 21:08:19:373 - info: [Appium]   newCommandTimeout: '700'
+2017-03-11 21:08:19:376 - info: [debug] [AndroidDriver] AndroidDriver version: 1.10.35
+2017-03-11 21:08:19:378 - warn: [BaseDriver] Capability 'newCommandTimeout' changed from string ('700') to integer (700). This may cause unexpected behavior
+2017-03-11 21:08:19:382 - info: [BaseDriver] Session created with session id: 5cf7f03f-6931-4119-8591-e1235ce02305
+2017-03-11 21:08:19:384 - info: [debug] [AndroidDriver] Getting Java version
+2017-03-11 21:08:19:573 - info: [AndroidDriver] Java version is: 1.8.0_121
+2017-03-11 21:08:19:577 - info: [ADB] Checking whether adb is present
+2017-03-11 21:08:19:580 - info: [ADB] Using adb.exe from C:\Users\leonid\AppData\Local\Android\sdk\platform-tools\adb.exe
+2017-03-11 21:08:19:581 - info: [AndroidDriver] Retrieving device list
+2017-03-11 21:08:19:582 - info: [debug] [ADB] Trying to find a connected android device
+2017-03-11 21:08:19:582 - info: [debug] [ADB] Getting connected devices...
+2017-03-11 21:08:23:703 - info: [debug] [ADB] 0 device(s) connected
+2017-03-11 21:08:23:704 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:23:705 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:23:926 - info: [debug] [ADB] Getting connected devices...
+2017-03-11 21:08:28:001 - info: [debug] [ADB] 0 device(s) connected
+2017-03-11 21:08:28:008 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:28:009 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:28:247 - info: [debug] [ADB] Getting connected devices...
+2017-03-11 21:08:32:380 - info: [debug] [ADB] 0 device(s) connected
+2017-03-11 21:08:32:394 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:32:395 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:32:619 - info: [debug] [ADB] Getting connected devices...
+2017-03-11 21:08:36:728 - info: [debug] [ADB] 0 device(s) connected
+2017-03-11 21:08:36:729 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:36:730 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:36:965 - info: [debug] [ADB] Getting connected devices...
+2017-03-11 21:08:41:117 - info: [debug] [ADB] 0 device(s) connected
+2017-03-11 21:08:41:118 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:41:118 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:41:341 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:41:344 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:42:602 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:42:604 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:43:850 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:43:851 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:45:105 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:45:106 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:46:400 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2017-03-11 21:08:46:403 - info: [debug] [ADB] Restarting adb
+2017-03-11 21:08:47:656 - info: [debug] [AndroidDriver] Shutting down Android driver
+2017-03-11 21:08:47:657 - info: [debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2017-03-11 21:08:47:665 - error: [MJSONWP] Encountered internal error running command: Error: Could not find a connected Android device.
+    at ADB.getDevices$ (lib/tools/system-calls.js:127:13)
+    at tryCatch (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at invoke (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at enqueueResult (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+    at Promise.F (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+    at AsyncIterator.enqueue (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at Object.runtime.async (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+    at getDevices (lib/tools/system-calls.js:130:18)
+    at ADB.getDevices$ (lib/tools/system-calls.js:144:20)
+    at tryCatch (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2017-03-11 21:08:47:681 - info: [HTTP] <-- POST /wd/hub/session 500 28303 ms - 179 
+2017-03-11 21:08:47:692 - info: [HTTP] --> POST /wd/hub/session {"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},"requiredCapabilities":{}}}
+2017-03-11 21:08:47:694 - info: [debug] [MJSONWP] Bad parameters: BadParametersError: Parameters were incorrect. We wanted {"required":["desiredCapabilities"],"optional":["requiredCapabilities","capabilities","sessionId","id","sessionId","id","sessionId","id"]} and you sent ["capabilities"]
+2017-03-11 21:08:47:699 - info: [HTTP] <-- POST /wd/hub/session 400 5 ms - 205 

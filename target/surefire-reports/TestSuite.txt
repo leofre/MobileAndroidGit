@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 86.53 sec <<< FAILURE! - in TestSuite
+Initialize(TrendingCategory.ChooseSong)  Time elapsed: 86.02 sec  <<< FAILURE!
+java.lang.Exception: Failed to configure android driver for native app
+	at TrendingCategory.ChooseSong.Initialize(ChooseSong.java:81)
+

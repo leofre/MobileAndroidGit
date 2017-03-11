@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="86.53" tests="4" errors="0" skipped="3" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="mobileAndroidSanityProfile"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\leonid\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e43003a1cdb024d9"/>
+    <property name="POM_ARTIFACTID" value="MobileAndroid"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="user.country.format" value="IL"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="MobileAndroid"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\leonid\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="leonid"/>
+    <property name="user.language.format" value="he"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/mobileAndroidSanityProfile/6/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
+    <property name="OneDrive" value="C:\Users\leonid\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\leonid\AppData\Local"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="USERNAME" value="leonid"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="MOZ_PLUGIN_PATH" value="C:\Program Files\Tracker Software\PDF Viewer\Win32\"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="6"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1255"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="ESET_OPTIONS" value="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/mobileAndroidSanityProfile/6/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\leonid\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/mobileAndroidSanityProfile/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="LEONID"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_121"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\leonid"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="LEONID"/>
+    <property name="POM_GROUPID" value="com.leo"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="user.home" value="C:\Users\leonid"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-mobileAndroidSanityProfile-6"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e43003a1cdb024d9"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\leonid"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\leonid\Desktop\Maven\apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.8.0_121/bin;C:\Program Files\Java\jdk1.8.0_121/bin;C:\ProgramData\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 &amp; MySQL Utilities 1.5.4 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 &amp; MySQL Utilities 1.5.4 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\bin;C:\Users\leonid\AppData\Local\Android\sdk\platform-tools;C:\Users\leonid\AppData\Local\Android\sdk\tools;C:\Python27\Scripts;C:\Users\leonid\Desktop\New folder\nishad-udemy-dl-windows-10a95b3\dist;C:\Program Files\nodejs\;C:\Users\leonid\AppData\Roaming\npm;C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\lib\;C:\Users\leonid\Desktop\Maven\apache-maven-3.3.9\bin;C:\Users\leonid\.m2;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\Java\jdk1.8.0_51\bin;C:\Users\leonid\AppData\Local\Microsoft\WindowsApps;C:\Users\leonid\AppData\Roaming\npm;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\leonid\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\leonid\Desktop\Maven\apache-maven-3.3.9"/>
+    <property name="java.class.path" value="C:\Users\leonid\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Users\leonid\Desktop\Maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\Users\leonid\Desktop\Maven\apache-maven-3.3.9/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Users\leonid\Desktop\Maven\apache-maven-3.3.9 C:\Users\leonid\.jenkins\war\WEB-INF\lib\remoting-2.59.jar C:\Users\leonid\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\leonid\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 54656"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_121/bin;C:\ProgramData\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 &amp; MySQL Utilities 1.5.4 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 &amp; MySQL Utilities 1.5.4 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\bin;C:\Users\leonid\AppData\Local\Android\sdk\platform-tools;C:\Users\leonid\AppData\Local\Android\sdk\tools;C:\Python27\Scripts;C:\Users\leonid\Desktop\New folder\nishad-udemy-dl-windows-10a95b3\dist;C:\Program Files\nodejs\;C:\Users\leonid\AppData\Roaming\npm;C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\lib\;C:\Users\leonid\Desktop\Maven\apache-maven-3.3.9\bin;C:\Users\leonid\.m2;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\Java\jdk1.8.0_51\bin;C:\Users\leonid\AppData\Local\Microsoft\WindowsApps;C:\Users\leonid\AppData\Roaming\npm"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_121/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\leonid\Desktop\Maven\apache-maven-3.3.9"/>
+    <property name="java.io.tmpdir" value="C:\Users\leonid\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\leonid\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\leonid\Desktop\Maven\apache-maven-3.3.9/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/mobileAndroidSanityProfile/6/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="MAVEN_OPTS" value="-Xms256m -Xmx512m"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\leonid\workspace\MobileAndroid"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/mobileAndroidSanityProfile/"/>
+    <property name="LOGONSERVER" value="\\LEONID"/>
+    <property name="USERDOMAIN" value="LEONID"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Users\leonid\Desktop\Maven\apache-maven-3.3.9"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="6"/>
+    <property name="ANDROID_HOME" value="C:\Users\leonid\AppData\Local\Android\sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\leonid\Desktop\jenkins"/>
+    <property name="file.encoding" value="Cp1255"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\leonid\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="C:\Users\leonid\.jenkins\workspace\mobileAndroidSanityProfile"/>
+    <property name="maven3.interceptor.common" value="C:\Users\leonid\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+    <property name="easyplussdk" value="&quot;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin&quot;"/>
+  </properties>
+  <testcase name="Initialize" classname="TrendingCategory.ChooseSong" time="86.02">
+    <failure message="Failed to configure android driver for native app" type="java.lang.Exception">java.lang.Exception: Failed to configure android driver for native app
+	at TrendingCategory.ChooseSong.Initialize(ChooseSong.java:81)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[Appium] Welcome to Appium v1.6.1
+[Appium] Non-default server args:
+[Appium]   log: 'C:\\Users\\leonid\\workspace\\MobileAndroid\\appiumLogs\\Test Trending Category.txt'
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --> GET /wd/hub/status {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.6.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 53 ms - 83 
+[HTTP] --> POST /wd/hub/session {"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},"requiredCapabilities":{}},"desiredCapabilities":{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},"requiredCapabilities":{}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},{},{"desiredCapabilities":{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},"requiredCapabilities":{}},null,null]
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'Android device'
+[Appium]   newCommandTimeout: '700'
+[debug] [AndroidDriver] AndroidDriver version: 1.10.35
+[BaseDriver] Capability 'newCommandTimeout' changed from string ('700') to integer (700). This may cause unexpected behavior
+[BaseDriver] Session created with session id: 0370f1ab-a3dd-4127-a6d9-46083be68348
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_121
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\leonid\AppData\Local\Android\sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 0 device(s) connected
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 0 device(s) connected
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 0 device(s) connected
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 0 device(s) connected
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 0 device(s) connected
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [AndroidDriver] Shutting down Android driver
+[debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+[MJSONWP] Encountered internal error running command: Error: Could not find a connected Android device.
+    at ADB.getDevices$ (lib/tools/system-calls.js:127:13)
+    at tryCatch (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at invoke (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at enqueueResult (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtim[HTTP] <-- POST /wd/hub/session 500 29147 ms - 179 
+e.js:185:17)
+    at Promise.F (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+    at AsyncIterator.enqueue (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at Object.runtime.async (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+    at getDevices (lib/tools/system-calls.js:130:18)
+    at ADB.getDevices$ (lib/tools/system-calls.js:14[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},"requiredCapabilities":{}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},{},null,null,null,null,null]
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'Android device'
+[Appium]   newCommandTimeout: '700'
+[debug] [AndroidDriver] AndroidDriver version: 1.10.35
+[BaseDriver] Capability 'newCommandTimeout' changed from string ('700') to integer (700). This may cause unexpected behavior
+[BaseDriver] Session created with session id: 5cf7f03f-6931-4119-8591-e1235ce02305
+[debug] [AndroidDriver] Getting Java version
+4:20)
+    at tryCatch (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+[AndroidDriver] Java version is: 1.8.0_121
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\leonid\AppData\Local\Android\sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 0 device(s) connected
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 0 device(s) connected
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 0 device(s) connected
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 0 device(s) connected
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 0 device(s) connected
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [ADB] Could not find devices, restarting adb server...
+[debug] [ADB] Restarting adb
+[debug] [AndroidDriver] Shutting down Android driver
+[debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+[MJSONWP] Encountered internal error running command: Error: Could not find a connected Android device.
+    at ADB.getDevices$ (lib/tools/system-calls.js:127:13)
+    at tryCatch (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at invoke (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at enqueueResult (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+    at Promise.F (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+    at AsyncIterator.enqueue (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at Object.runtime.async (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+    at getDevices (lib/tools/system-calls.js:130:18)
+    at ADB.getDevices$ (lib/tools/system-calls.js:144:20)
+    at tryCatch (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunc[HTTP] <-- POST /wd/hub/session 500 28303 ms - 179 
+tionPrototype.invoke [as _invoke] (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\leonid\AppData\Roaming\npm\node_modules\app[HTTP] --> POST /wd/hub/session {"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\leonid\\workspace\\MobileAndroid\\apks\\raaga.apk","platformName":"Android","deviceName":"Android device","newCommandTimeout":"700"},"requiredCapabilities":{}}}
+ium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\leonid\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+[debug] [MJSONWP] Bad parameters: BadParametersError: Parameters were incorrect. We wanted {"required":["desiredCapabilities"],"optional":["requiredCapabilities","capabilities","sessionId","id","sessionId","id","sessionId","id"]} and you sent ["capabilities"]
+[HTTP] <-- POST /wd/hub/session 400 5 ms - 205 
+]]></system-out>
+    <system-err><![CDATA[מרץ 11, 2017 11:07:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+מרץ 11, 2017 11:08:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+מרץ 11, 2017 11:08:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to straight W3C remote end connection
+]]></system-err>
+  </testcase>
+  <testcase name="chooseSongOnTrendingCategory" classname="TrendingCategory.ChooseSong" time="0">
+    <skipped message="Failed to configure android driver for native app"/>
+  </testcase>
+  <testcase name="afterMethod" classname="TrendingCategory.ChooseSong" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clean" classname="TrendingCategory.ChooseSong" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

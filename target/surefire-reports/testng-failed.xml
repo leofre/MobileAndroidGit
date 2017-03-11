@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test Trending Category]" parallel="tests">
+  <test name="Choose Song On &#039;Trending&#039; Category(failed)" parallel="tests">
+    <classes>
+      <class name="TrendingCategory.ChooseSong">
+        <methods>
+          <include name="chooseSongOnTrendingCategory"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- TrendingCategory.ChooseSong -->
+    </classes>
+  </test> <!-- Choose Song On 'Trending' Category(failed) -->
+</suite> <!-- Failed suite [Test Trending Category] -->

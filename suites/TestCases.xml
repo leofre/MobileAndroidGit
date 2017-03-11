@@ -1,0 +1,15 @@
+<suite name="Test Trending Category" parallel="tests"  >
+
+<test name="Choose Song On 'Trending' Category">
+<classes>
+	<class name="TrendingCategory.ChooseSong">
+		<methods>
+			<include name="chooseSongOnTrendingCategory" />
+		</methods>
+	</class>
+</classes>>
+</test>
+
+
+
+</suite>
